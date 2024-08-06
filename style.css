@@ -37,6 +37,7 @@
 .secao-sobre p {
     text-align: justify;
     line-height: 25px;
+    margin-bottom: 25px;
 }
 .secao-sobre h2 {
     color: rgb(83, 83, 219);
@@ -48,4 +49,33 @@
 .secao-sobre img {
     width: 600px;
     margin: 20px;
+}
+.secao-servicos-textos {
+    text-align:center ;
+    max-width: 700px;
+    line-height: 25px;
+    color: white;
+    margin: 0px auto;
+    
+}
+.secao-servicos-textos h1 {
+    font-size: 20px;
+    padding-top: 25px;
+}
+.secao-servicos { 
+    background-color: blue;
+}
+.secao-servicos p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.lista {
+    max-width: 150px;
+    text-align: start;
+    margin: 0px auto;
+    padding-bottom: 25px;
+}
+.secao-servicos-textos span {
+    color: yellow;
+    font-weight: bold;
 }
