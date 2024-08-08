@@ -37,14 +37,16 @@
 .secao-sobre p {
     text-align: justify;
     line-height: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .secao-sobre h2 {
     color: rgb(83, 83, 219);
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 .secao-sobre h1 {
-    font-size: 30px;
+    font-size: 25px;
+    color: rgb(30, 27, 27);
 }
 .secao-sobre img {
     width: 600px;
@@ -58,12 +60,13 @@
     margin: 0px auto;
     
 }
-.secao-servicos-textos h1 {
+.secao-servicos-textos h2 {
     font-size: 20px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 .secao-servicos { 
     background-color: blue;
+    margin-bottom: 30px;
 }
 .secao-servicos p {
     margin-top: 25px;
@@ -73,9 +76,30 @@
     max-width: 150px;
     text-align: start;
     margin: 0px auto;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 .secao-servicos-textos span {
     color: yellow;
+    font-weight: bold;
+}
+.secao-corretores {
+    text-align: center;
+    max-width: 1024px;
+    margin: 25px auto;
+}
+.secao-corretores p {
+    text-align: justify;
+    padding-top: 25px;
+}
+.secao-corretores h2 {
+    font-size: 20px;
+    color: blue;
+    padding-bottom: 25px;
+}
+.secao-corretores img {
+    width: 600px;
+}
+.secao-corretores span {
+    color: blue;
     font-weight: bold;
 }
