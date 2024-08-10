@@ -90,6 +90,7 @@
 .secao-corretores p {
     text-align: justify;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 .secao-corretores h2 {
     font-size: 20px;
@@ -102,4 +103,20 @@
 .secao-corretores span {
     color: blue;
     font-weight: bold;
+}
+.secao-contato {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.secao-contato h2 {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+iframe {
+    margin-bottom: 25px;
+}
+.secao-contato p, ul {
+    padding-bottom: 25px;
 }
