@@ -115,8 +115,21 @@
     padding-bottom: 25px;
 }
 iframe {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
-.secao-contato p, ul {
+.secao-contato ul {
     padding-bottom: 25px;
+    line-height: 25px;
+    
+}
+.secao-contato p {
+    background-color: black;
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 10px 10px;
+}
+.secao-contato a {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
 }
