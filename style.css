@@ -6,7 +6,7 @@
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color:#7ccfed;
+    background-color:#9acddf;
 }
 .cabecalho a {
     color: black;
@@ -25,9 +25,14 @@
     margin: 10px auto;
 }
 .banner {
+    max-width: 1024px;
+    height: 341px;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
     padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    
 }
 .secao-sobre {
     text-align: center;
@@ -49,7 +54,7 @@
     color: rgb(30, 27, 27);
 }
 .secao-sobre img {
-    width: 600px;
+    max-width: 60%;
     margin: 20px;
 }
 .secao-servicos-textos {
@@ -65,7 +70,8 @@
     padding-top: 40px;
 }
 .secao-servicos { 
-    background-color: blue;
+    background-color:#3c839c;
+    ;
     margin-bottom: 30px;
 }
 .secao-servicos p {
@@ -98,7 +104,7 @@
     padding-bottom: 25px;
 }
 .secao-corretores img {
-    width: 600px;
+    max-width: 60%;
 }
 .secao-corretores span {
     color: blue;
@@ -106,7 +112,7 @@
 }
 .secao-contato {
     text-align: center;
-    background-color: blue;
+    background-color: #3c839c;
     color: white;
 }
 .secao-contato h2 {
@@ -116,9 +122,11 @@
 }
 iframe {
     margin-bottom: 0px;
+    height: 250px;
 }
 .secao-contato ul {
     padding-bottom: 25px;
+    padding-left: 0px;
     line-height: 25px;
     
 }
@@ -132,4 +140,8 @@ iframe {
     background-color: white;
     color: blue;
     border-radius: 5px;
+}
+.secao-contato span {
+    color: yellow;
+    font-weight: bold;
 }
